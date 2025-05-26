@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>✩°𓏲⋆🌿.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;  /* center horizontally */
+  align-items: center;      /* center vertically */
+  height: 100vh;            /* full screen height */
+  margin: 0;                /* remove default spacing */
+  cursor: url(209511.png) 0 0, auto;
+}
+
+    .profile-card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1px;
+      max-width: 600px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+       /* ✨ Add fade-in animation */
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 0.2s;
+    }
+
+    .info {
+      flex: 1 1 280px;
+    }
+
+    .info h1 {
+      font-size: 28px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      margin-top: 1px;
+      justify-content: center;
+    }
+
+    .info h1 span {
+      color: #cdaac1;
+    }
+
+    .info p {
+      margin: px 0;
+      font-size: 15px;
+    }
+
+    .info p span {
+      color: #be96b0;
+    }
+
+    .icons, .links {
+      margin-top: 12px;
+      font-size: 14px;
+      margin-right: 2px;
+    }
+
+    .icons p span {
+      color: #be96b0;
+    }
+
+    .icons img, .license img {
+      width: 24px;
+      margin-right: 4px;
+    }
+
+    .license {
+      flex: 1 1 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .license img {
+      width: 100%;
+      max-width: 320px;
+      border-radius: 10px;
+      margin-top: -25px;
+    }
+
+    .license-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -125px;
+}
+
+.license img:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease;
+}
+
+    .links a {
+      margin-right: 8px;
+      text-decoration: none;
+      color: #555;
+      font-weight: 500;
+      cursor: url(209508.png), auto;
+    }
+
+    .footer {
+      margin-top: 15px;
+      text-align: center;
+      width: 100%;
+      color: gray;
+      font-size: 13px;
+    }
+
+    @keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* optional: slight slide up */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ovals {
+    cursor: url(209508.png), auto;
+}
+
+.photo-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: -20px;
+  flex-wrap: wrap; /* makes it responsive */
+}
+
+.photo-row img {
+  width: 90px;       /* adjust size as needed */
+  height: 90px;
+  object-fit: cover;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photo-row img:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease;
+}
+
+.video {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.video video {
+  width: 400px; 
+  border-radius: 8px; 
+}
+
+.lists-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.list {
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 14px;
+  color: #555;
+  flex: 1;
+}
+
+.left-list {
+  text-align: left;
+}
+
+.right-list {
+  text-align: left;
+}
+
+.apple-row {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.apple-row img {
+  width: 300px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: -110px;
+  margin-right: 5px;
+}
+
+.apple-row img:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease;
+}
+  </style>
+</head>
+<body>
+
+<div class="profile-card">
+  <div class="info">
+    <h1>BEABADOOBEE<span>?!</span></h1>
+    <p><strong>this is bea ! <span>₍^. .^₎⟆</span></strong></p>
+    <p>beabadoobee or bea<br>she is one of my favorite singer/artist ❀</p>
+
+    <div class="icons">
+      <p>( ˶ˆᗜˆ˵ ) <strong>bea</strong> was born in the Philippines and raised in London. Her real name is Beatrice Laus, she is known for her <span>indie/alt pop music</span> !</p> 
+      </p>
+    </div>
+
+        <div class="icons">
+      <p><strong>bea</strong> is one of my favorite artists because of the style of music she creates, aswell as her overall aesthetic. Some of her albums are . .</p>
+  <ul class="list left-list">
+    <li>This Is How Tomorrow Moves</li>
+    <li>The Way Things Go</li>
+    <li>Glue Song</li>
+    <li>Beatopia</li>
+    <li>Our Extended Play</li>
+    <li>Love Worm</li>
+  </ul>
+    </div>
+
+    <div class="links">
+      <a href="test4.html"><strong> < back ‧  ₊˚ ♪  𝄞₊˚⊹</strong></a>
+    </div>
+  </div>
+
+<div class="license">
+  <div class="license-content">
+    <img src="kayla (8).png" alt="kaylad id">
+    <div class="photo-row">
+      <img src="download (80).jpeg" alt="Photo 1">
+      <img src="🪽.jpeg" alt="Photo 2">
+      <img src="0c5c33d3647e2e7a9e92c4a5fb4d62b7.jpg" alt="Photo 3">
+    </div>
+  </div>
+</div>
+
+<div class="apple-row">
+      <img src="download (82)s.jpeg">
+</div>
+
+  <div class="footer">
+  Cologne by beabadoobee is playing... ♪
+  </div>
+</div>
+
+</body>
+</html>
